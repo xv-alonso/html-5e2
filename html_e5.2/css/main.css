@@ -1,0 +1,90 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #EFEFEF;
+  color:white;
+  font-size: 22px;;
+}
+
+#container{
+  display:grid;
+  border: 1px solid red;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: calc(33.33vh - 10px) calc(33.33vh - 10px) calc(33.33vh - 10px);
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+}
+
+#container .celda1{
+  padding: 9px;
+  background-color:#a60573;
+  border-radius: 5px;
+}
+
+#container .celda2{
+  padding: 9px;
+  background-color:#596ac3;
+  border-radius: 5px;
+  grid-column: 2 / span 1;
+  grid-row: 1/ 4;
+}
+
+#container .celda3{
+  padding: 9px;
+  background-color:#97bc27;
+  border-radius: 5px;
+
+}
+
+#container .celda4{
+  padding: 9px;
+  background-color:#ff9800;
+  border-radius: 5px;
+}
+
+#container .celda5{
+  padding: 9px;
+  background-color:#ff3700;
+  border-radius: 5px;
+}
+
+#container .celda6{
+  padding: 9px;
+  background-color:#459800;
+  border-radius: 5px;
+}
+
+#container .celda7{
+  padding: 9px;
+  background-color:#ff98ff;
+  border-radius: 5px;
+}
+
+#container .celda8{
+  padding: 9px;
+  background-color:#023300;
+  border-radius: 5px;
+}
+
+#container .celda9{
+  padding: 9px;
+  background-color:#0f2255;
+  border-radius: 5px;
+}
+
+
+<link rel="stylesheet" href="css/main.css">
+<div id="container">
+<div class="celda1">1. Un</div>
+<div class="celda2">2. Dos</div>
+<div class="celda3">3. Tres</div>
+<div class="celda4">4. Quatre</div>
+<div class="celda5">5. Cinc</div>
+<div class="celda6">6. Sis</div>
+<div class="celda7">7. set</div>
+<div class="celda8">8. Vuit</div>
+<div class="celda9">9. Nou</div>
